@@ -7,16 +7,28 @@
 }
 
 body {
-  background-color: #000000;
+  background: linear-gradient(135deg, #1c1c1c, #2b0a3d);    background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+  padding: 0;  
   align-items: center;
   justify-content: center;
   padding: 30px;
   font-size: 20px;
-
   height: 100vh;
   margin: 0;
   transition: background 0.2s linear;
 }
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
 
 @keyframes gradientAnimation {
