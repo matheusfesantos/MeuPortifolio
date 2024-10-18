@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-* {
+*{
   margin: 0;
   border: 0;
   box-sizing: border-box;
@@ -70,8 +70,8 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding: 20px;
     background-color: rgba(92, 75, 138, 0.8);
+    padding: 15px;
 }
 
 .Opcoes :hover {
@@ -80,10 +80,7 @@ body {
 
 .Opcoes h1 {
     color: white;
-    border-radius: 20px;
-    padding: 20px;
     font-size: 25px;
-    margin: 0;
 }
 
 .FotoPerfil .perfil {
@@ -247,6 +244,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  *{
+    background-position: 100%;
+  }
     .SobreMim  {
       padding: 15px;
       font-size: 0.9rem;
@@ -280,11 +280,13 @@ body {
       text-align: center;
     }
   }
-  
+
   @media (max-width: 480px) {
+
     body {
       font-size: 14px;
       padding: 5px;
+      background-position: 100%;
     }
   
     .SobreMim {
@@ -343,4 +345,3 @@ body {
       text-align: center;
     }
   }
-  
