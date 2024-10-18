@@ -4,6 +4,7 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
+  grid-template-columns: 50% 50%;
 }
 
 body {
@@ -342,6 +343,5 @@ body {
     }
 
     .thank-you{
-      text-align: center;
-    }
+      text-align:left}
   }
