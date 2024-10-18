@@ -5,6 +5,11 @@
   border: 0;
   box-sizing: border-box;
   grid-template-columns: 50% 50%;
+  text-decoration: none
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -71,7 +76,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
-    background-color: rgba(92, 75, 138, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 15px;
 }
 
@@ -100,7 +105,7 @@ body {
 .SobreMim {
     color: white;
     border: 3px solid white;
-    background-color: rgba(92, 75, 138, 0.8);
+    background-color: rgba(66, 50, 110, 0.8);
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 50px;
@@ -110,39 +115,13 @@ body {
 .SobreMim p{
     color: white;
     font-weight: bold;
-    font-size: 20px;
-}
-
-.SOCIAIS {
-    border: 3px solid white;
-    color: white;
-    text-align: center;
-    background-color: rgba(92, 75, 138, 0.8);
-    border-radius: 20px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    margin-bottom: 50px;
-}
-
-.SOCIAIS h1{
-    margin-bottom: 20px;
-}
-
-.SOCIAIS img{
-    width: 180px;
-    height: 50px;
-    justify-content: center;
-    margin-left: 20px;
-}
-
-.SOCIAIS a :hover{
-    transform: scale(1.1);
+    font-size: 30px;
 }
 
 .skills {
     border: 3px solid white;
     color: white;
-    background-color: rgba(92, 75, 138, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -150,6 +129,7 @@ body {
     gap: 24px;
     justify-content: center;
     margin-bottom: 50px;
+    margin-top: 40px;
 }
 
 .skill-item {
@@ -236,6 +216,51 @@ body {
     transform: scale(1.1);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
+
+.SOCIAIS {
+  margin-top: 40px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+
+.social-items {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.social-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-item img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.social-item a :hover {
+  transform: scale(1.1);
+}
+
+.social-item h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+}
+
 
 .thank-you {
   color: white;
