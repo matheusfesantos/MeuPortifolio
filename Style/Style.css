@@ -62,7 +62,7 @@ body {
     100% {
       background-position: 0% 50%;
     }
-  }
+ }
 
 .Opcoes {
     border: 3px solid white;
@@ -247,7 +247,7 @@ body {
 }
 
 @media (max-width: 768px) {
-    .SobreMim {
+    .SobreMim  {
       padding: 15px;
       font-size: 0.9rem;
     }
@@ -264,9 +264,7 @@ body {
     }
   
     .Opcoes {
-      flex-direction: column;
-      gap: 15px;
-      align-items: center;
+      display: none;
     }
   
     .SOCIAIS img {
@@ -276,6 +274,10 @@ body {
     .btn-visualizar {
       font-size: 0.9rem;
       padding: 8px 12px;
+    }
+
+    .thank-you{
+      text-align: center;
     }
   }
   
@@ -304,12 +306,8 @@ body {
       padding: 8px;
     }
   
-    .Opcoes h1 {
-      font-size: 0.9rem;
-    }
-  
     .Opcoes {
-      gap: 10px;
+      display: none;
     }
   
     .SOCIAIS {
@@ -339,6 +337,10 @@ body {
     .box-projetos {
       flex-direction: column;
       gap: 15px;
+    }
+
+    .thank-you{
+      text-align: center;
     }
   }
   
