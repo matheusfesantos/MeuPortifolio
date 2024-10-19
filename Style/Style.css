@@ -270,10 +270,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  *{
-    background-position: 100%;
-  }
-    .SobreMim  {
+  .SobreMim  {
       padding: 15px;
       font-size: 0.9rem;
     }
