@@ -21,8 +21,10 @@ body {
   padding: 30px;
   font-size: 20px;
   height: 100vh;
-  margin: 0;
+  margin-left: 100px;
+  margin-right: 100px;
   transition: background 0.2s linear;
+  text-align: center;
 }
 
 .loading-screen {
@@ -75,9 +77,10 @@ body {
     border-radius: 20px;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    align-items: center;
+    gap: 70px;
     background-color: rgba(0, 0, 0, 0.8);
-    padding: 15px;
+    padding: 10px;
 }
 
 .Opcoes :hover {
@@ -270,7 +273,6 @@ body {
 }
 
 @media (max-width: 768px) {
-
     .SobreMim  {
       padding: 15px;
       font-size: 0.9rem;
