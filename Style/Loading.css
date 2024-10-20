@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 
 *{
   margin: 0;
@@ -6,10 +6,6 @@
   box-sizing: border-box;
   grid-template-columns: 50% 50%;
   text-decoration: none
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 body {
@@ -25,12 +21,6 @@ body {
   margin-right: 100px;
   transition: background 0.2s linear;
   text-align: center;
-}
-
-@keyframes zoomIn {
-  to {
-      transform: scale(1);
-  }
 }
 
 ::-webkit-scrollbar {
