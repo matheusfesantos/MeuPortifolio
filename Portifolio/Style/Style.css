@@ -46,6 +46,43 @@ body {
     border-radius: 10px; 
 }
 
+.Bnt-Curriculo {
+  margin-top: 30px;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  right: 10px;
+  bottom: 10px;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+.Bnt-Curriculo a{
+  padding: 20px;
+  margin-top: 30px;
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  bottom: 10px;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.Bnt-Curriculo a:hover {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
 .Opcoes {
   text-align: center;
   margin: 20px;
