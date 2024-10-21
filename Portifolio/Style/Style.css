@@ -19,14 +19,14 @@ body {
   background-repeat: no-repeat, no-repeat;
   background-blend-mode: multiply;
   background-attachment: fixed, fixed;
-  padding: 0;  
+  padding: 0;
   align-items: center;
   justify-content: center;
   padding: 30px;
   font-size: 20px;
   height: 100vh;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
   transition: background 0.2s linear;
   text-align: center;
 }
@@ -110,7 +110,6 @@ body {
 }
 
 .skill-item {
-    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     padding: 15px;
     width: 100px; 
@@ -163,6 +162,8 @@ body {
 .folclore-image,
 .mercado-image,
 .player-image {
+    margin-left: none;
+    margin-right: none;
     margin-top: 20px;
     width: 300px; 
     height: auto; 
@@ -237,7 +238,6 @@ body {
   color: #ffffff;
   text-align: center;
 }
-
 
 .thank-you {
   color: white;
