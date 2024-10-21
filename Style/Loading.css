@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 
-*{
+* {
   margin: 0;
   border: 0;
   box-sizing: border-box;
-  grid-template-columns: 50% 50%;
-  text-decoration: none
+  text-decoration: none;
 }
 
 body {
-  background: linear-gradient(135deg, #1c1c1c, #2b0a3d);    background-size: 900% 900%;
-  animation: gradientAnimation 10s ease infinite;
-  padding: 0;  
+  background-image :url('/Style/Imagens/Imagem_de_Fundo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 30px;  
+  display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px;
   font-size: 20px;
   height: 100vh;
   margin-left: 100px;
@@ -24,40 +26,29 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
+  width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-    background: linear-gradient(135deg, #1c1c1c, #2b0a3d);
-    animation: gradientAnimation 10s ease infinite;
-    transition: background 0.2s linear;
+  background-color: rgba(165, 162, 172, 0.2); /* Apenas uma cor sem animação */
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: rgba(92, 75, 138, 0.8);
-    border-radius: 10px; 
+  background-color: rgba(165, 162, 172, 0.8);
+  border-radius: 10px;
 }
 
-@keyframes gradientAnimation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
- }
- .loading-gif{
-    width: 540px;
-    height: auto;
- }
+.loading-gif {
+  width: 540px;
+  height: auto;
+}
 
- .loading-text{
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    border-radius: 20px;
-    margin-bottom: 20px;
- }
+.loading-text {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.432);
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}

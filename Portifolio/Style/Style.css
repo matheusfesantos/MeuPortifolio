@@ -13,8 +13,12 @@ html {
 }
 
 body {
-  background: linear-gradient(135deg, #1c1c1c, #2b0a3d);    background-size: 900% 900%;
-  animation: gradientAnimation 10s ease infinite;
+  background-image: url('Imagens/Imagem_de_Fundo.jpg');
+  background-size: cover, cover;
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-blend-mode: multiply;
+  background-attachment: fixed, fixed;
   padding: 0;  
   align-items: center;
   justify-content: center;
@@ -41,18 +45,6 @@ body {
     background-color: rgba(92, 75, 138, 0.8);
     border-radius: 10px; 
 }
-
-@keyframes gradientAnimation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
- }
 
 .Opcoes {
     border: 3px solid white;

@@ -1,4 +1,4 @@
-const loadingTime = 3000; // 3 segundos
+const loadingTime = 4000;
 
 setTimeout(() => {
     window.location.href = 'Portifolio/index.html';
