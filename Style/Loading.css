@@ -30,7 +30,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: rgba(165, 162, 172, 0.2); /* Apenas uma cor sem animação */
+  background-color: rgba(165, 162, 172, 0.2);
 }
 
 ::-webkit-scrollbar-thumb {
