@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+@media (max-width: 768px) {
+    .SobreMim {
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+
+    .FotoPerfil .perfil {
+        width: 180px;
+        height: 180px;
+    }
+
+    .skills {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .Opcoes {
+        display: none;
+    }
+
+    .SOCIAIS img {
+        width: 80px;
+    }
+
+    .btn-visualizar {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+
+    .thank-you {
+        text-align: center;
+    }
+
+    .PROJETOS{
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+        padding: 5px;
+        background-position: 100%;
+    }
+
+    .SobreMim {
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+
+    .FotoPerfil .perfil {
+        width: 120px;
+        height: 120px;
+    }
+
+    .skills {
+        gap: 8px;
+    }
+
+    .skill-item {
+        width: 70px;
+        padding: 8px;
+    }
+
+    .Opcoes {
+        display: none;
+    }
+
+    .SOCIAIS {
+        padding: 10px;
+    }
+
+    .SOCIAIS img {
+        width: 70px;
+    }
+
+    .btn-visualizar {
+        font-size: 0.8rem;
+        padding: 6px 10px;
+    }
+
+    .PROJETOS{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+      }
+
+    .PROJETOS h1 {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    .folclore-image,
+    .mercado-image,
+    .player-image {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+    }
+
+    .box-projetos {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .thank-you {
+        text-align: left;
+    }
+}
