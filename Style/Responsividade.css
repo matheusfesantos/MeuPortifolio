@@ -1,0 +1,53 @@
+@media (max-width: 1200px) {
+    body {
+      padding: 20px;
+      margin-left: 50px;
+      margin-right: 50px;
+      font-size: 18px;
+    }
+  
+    .loading-gif {
+      width: 400px;
+    }
+  
+    .loading-text {
+      font-size: 18px;
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      padding: 15px;
+      margin-left: 20px;
+      margin-right: 20px;
+      font-size: 16px;
+    }
+  
+    .loading-gif {
+      width: 300px;
+    }
+  
+    .loading-text {
+      font-size: 16px;
+      padding: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      padding: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 14px;
+    }
+  
+    .loading-gif {
+      width: 250px;
+    }
+  
+    .loading-text {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }

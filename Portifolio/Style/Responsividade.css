@@ -1,115 +1,150 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-
 @media (max-width: 768px) {
-    .SobreMim {
-        padding: 15px;
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .Bnt-Curriculo a {
+        padding: 10px;
         font-size: 0.9rem;
     }
 
-    .FotoPerfil .perfil {
-        width: 180px;
-        height: 180px;
+    .FotoPerfil img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .SobreMim p {
+        font-size: 20px;
     }
 
     .skills {
         flex-direction: column;
-        align-items: center;
         gap: 15px;
-    }
-
-    .Opcoes {
-        display: none;
-    }
-
-    .SOCIAIS img {
-        width: 80px;
-    }
-
-    .btn-visualizar {
-        font-size: 0.9rem;
-        padding: 8px 12px;
-    }
-
-    .thank-you {
-        text-align: center;
-    }
-
-    .PROJETOS{
-      flex-direction: column;
-      align-items: center;
-      gap: 15px;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        font-size: 14px;
-        padding: 5px;
-        background-position: 100%;
-    }
-
-    .SobreMim {
-        font-size: 0.8rem;
-        padding: 8px;
-    }
-
-    .FotoPerfil .perfil {
-        width: 120px;
-        height: 120px;
-    }
-
-    .skills {
-        gap: 8px;
     }
 
     .skill-item {
-        width: 70px;
-        padding: 8px;
-    }
-
-    .Opcoes {
-        display: none;
-    }
-
-    .SOCIAIS {
+        width: 80px;
         padding: 10px;
     }
-
-    .SOCIAIS img {
-        width: 70px;
-    }
-
-    .btn-visualizar {
-        font-size: 0.8rem;
-        padding: 6px 10px;
-    }
-
-    .PROJETOS{
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-      }
 
     .PROJETOS h1 {
-        font-size: 1.2rem;
-        padding: 10px;
+        font-size: 1.5rem;
+    }
+
+    .box-projetos {
+        flex-direction: column;
+    }
+
+    .folclore,
+    .Mercado,
+    .PlayerMusical {
+        width: 100%;
+        margin: 0 auto;
     }
 
     .folclore-image,
     .mercado-image,
     .player-image {
         width: 100%;
-        max-width: 200px;
-        height: auto;
     }
 
-    .box-projetos {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
+    .btn-visualizar {
+        padding: 8px 10px;
+        font-size: 0.9rem;
+    }
+
+    .SOCIAIS {
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    .social-item img {
+        width: 80px;
+    }
+
+    .social-item h1 {
+        font-size: 1rem;
     }
 
     .thank-you {
-        text-align: left;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .Bnt-Curriculo a {
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+
+    .FotoPerfil img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .SobreMim p {
+        font-size: 18px;
+    }
+
+    .skills {
+        gap: 10px;
+    }
+
+    .skill-item {
+        width: 60px;
+        padding: 8px;
+    }
+
+    .PROJETOS h1 {
+        font-size: 1.2rem;
+    }
+
+    .box-projetos {
+        flex-direction: column;
+    }
+
+    .folclore,
+    .Mercado,
+    .PlayerMusical {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .folclore-image,
+    .mercado-image,
+    .player-image {
+        width: 100%;
+    }
+
+    .btn-visualizar {
+        padding: 6px 8px;
+        font-size: 0.8rem;
+    }
+
+    .SOCIAIS {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .social-item img {
+        width: 60px;
+    }
+
+    .social-item h1 {
+        font-size: 0.8rem;
+    }
+
+    .thank-you {
+        font-size: 1rem;
     }
 }
